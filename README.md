@@ -316,7 +316,7 @@ ecommerce-visual-copywriting-skill/
 
 ---
 
-##感谢https://linux.do/社区支持##
+感谢 linux.do 社区支持
 
 ## 📄 License
 
