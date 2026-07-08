@@ -2,7 +2,7 @@
 
 # 电商视觉文案设计 Skill
 
-**中文默认** · [English](README.en.md)
+**中文** · [English](README.en.md)
 
 > 把商品资料磨成能落图的主图、详情页 Storyboard、图内文案、设计说明和生图 Prompt。
 
@@ -21,19 +21,32 @@
 
 ## 效果展示
 
-这些图展示本 Skill 面向的最终执行形态：主图视觉截流、多角度产品视图、场景详情页、质感卖点表达、食品类合规视觉表达。
+这些图展示本 Skill 面向的最终执行形态：主图视觉截流、多角度产品视图、场景详情页、质感卖点表达。
 
-| 高端食品主图 | 多角度产品视图 |
-|---|---|
-| ![猫山王榴莲主图](assets/showcase/musang-king-durian-main.jpg) | ![手办多角度产品视图](assets/showcase/figure-multi-angle.png) |
-
-| 桌面场景详情 | 家居灯具质感表达 |
-|---|---|
-| ![桌面陈列场景图](assets/showcase/figure-desktop-scene.png) | ![玻璃吊灯质感主图](assets/showcase/lumina-pendant-lamp.png) |
-
-| 食品类场景主图 |
-|---|
-| ![恩泉白花山茶油场景主图](assets/showcase/enquan-camellia-oil.png) |
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="assets/showcase/musang-king-durian-main.jpg" alt="猫山王榴莲主图" width="360"><br>
+        <strong>高端食品主图</strong>
+      </td>
+      <td align="center" width="50%">
+        <img src="assets/showcase/figure-multi-angle.png" alt="手办多角度产品视图" width="360"><br>
+        <strong>多角度产品视图</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <img src="assets/showcase/figure-desktop-scene.png" alt="桌面陈列场景图" width="360"><br>
+        <strong>桌面场景详情</strong>
+      </td>
+      <td align="center" width="50%">
+        <img src="assets/showcase/lumina-pendant-lamp.png" alt="玻璃吊灯质感主图" width="360"><br>
+        <strong>家居灯具质感表达</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
 > 展示图用于说明视觉交付形态，不构成对应商品的法律意见、平台审核承诺或商业数据证明。
 
@@ -81,7 +94,7 @@ Copy-Item -Recurse ecommerce-visual-copywriting-skill\SKILL.md,ecommerce-visual-
 
 ## 语言切换
 
-- 默认中文：使用 `SKILL.md`。
+- 中文：使用 `SKILL.md`。
 - 英文版：查看 [README.en.md](README.en.md) 和 [SKILL.en.md](SKILL.en.md)。
 - 运行时可直接对 Agent 说：“用英文输出”或 “Output in English”。
 
@@ -138,9 +151,9 @@ Copy-Item -Recurse ecommerce-visual-copywriting-skill\SKILL.md,ecommerce-visual-
 ## 文件结构
 
 ```text
-SKILL.md                         # 默认中文核心工作流
+SKILL.md                         # 中文核心工作流
 SKILL.en.md                      # 英文版本
-README.md                        # 中文首页，默认入口
+README.md                        # 中文首页
 README.en.md                     # English README
 references/compliance-rules.md   # 分品类合规规则库和替换表
 examples/README.md               # 可复用输入与输出样例
@@ -162,7 +175,7 @@ python tools/verify-skill.py
 
 - `SKILL.md` frontmatter、触发词、暂停条件和五维自审。
 - `SKILL.en.md` 是否存在并包含英文工作流。
-- README 是否包含中文默认、英文切换、效果展示、安全边界和验证说明。
+- README 是否包含中文入口、英文切换、效果展示、安全边界和验证说明。
 - 展示图、示例、合规规则、marketplace 元数据是否存在。
 - 仓库文本是否包含常见 token、cookie、私有路径等泄露风险。
 

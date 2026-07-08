@@ -51,7 +51,7 @@ CHECKS = {
     "README.md": [
         "npx skills add feichanggege/ecommerce-visual-copywriting-skill",
         "装完后，对 Agent 说",
-        "中文默认",
+        "**中文**",
         "README.en.md",
         "效果展示",
         "assets/showcase/musang-king-durian-main.jpg",
