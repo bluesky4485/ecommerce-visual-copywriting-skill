@@ -4,14 +4,14 @@
 
 **中文** · [English](README.en.md)
 
-> 把商品资料磨成能落图的主图、详情页 Storyboard、图内文案、设计说明和生图 Prompt。
+> 把商品资料磨成能落图的主图、详情页分镜脚本、图内文案、设计说明和生图 Prompt。
 
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-ecommerce--visual--copywriting-blueviolet)](SKILL.md)
 [![skills.sh](https://skills.sh/b/feichanggege/ecommerce-visual-copywriting-skill)](https://skills.sh/feichanggege/ecommerce-visual-copywriting-skill)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Verify](https://img.shields.io/badge/verify-python%20tools%2Fverify--skill.py-2ea44f)](tools/verify-skill.py)
 
-**输入产品资料、资质边界、平台要求和视觉参考，先输出视觉策划案与 Storyboard，用户确认后再交付可执行的画面、图内文案、设计说明和生图 Prompt。**
+**输入产品资料、资质边界、平台要求和视觉参考，先输出视觉策划案与分镜脚本，用户确认后再交付可执行的画面、图内文案、设计说明和生图 Prompt。**
 
 [效果展示](#效果展示) · [快速开始](#快速开始) · [触发方式](#触发方式) · [能交付什么](#能交付什么) · [安全边界](#安全边界) · [验证](#验证)
 
@@ -68,7 +68,7 @@
 - 卖点听起来猛，但碰到广告法、功效宣称或平台审核红线。
 - 输出只有文案，没有画面、层级、材质光影、免责声明和设计执行说明。
 
-这个 Skill 把电商视觉文案拆成一个有门禁的 SOP：先判断转化驱动力，锁定 Campaign Style Lock，再输出主图和详情页 Storyboard；用户确认后，才进入最终画面、图内文案、设计说明和生图 Prompt。
+这个 Skill 把电商视觉文案拆成一个有门禁的 SOP：先判断转化驱动力，锁定统一视觉风格规范，再输出主图和详情页分镜脚本；用户确认后，才进入最终画面、图内文案、设计说明和生图 Prompt。
 
 ## 快速开始
 
@@ -79,7 +79,7 @@ npx skills add feichanggege/ecommerce-visual-copywriting-skill
 装完后，对 Agent 说：
 
 ```text
-帮我把这个产品资料做成一套电商主图和详情页视觉策划方案。先给视觉策划案和 Storyboard，等我确认后再继续出最终文案和生图 Prompt。
+帮我把这个产品资料做成一套电商主图和详情页视觉策划方案。先给视觉策划案和分镜脚本，等我确认后再继续出最终文案和生图 Prompt。
 ```
 
 ### 手动安装
@@ -111,7 +111,7 @@ Copy-Item -Recurse ecommerce-visual-copywriting-skill\SKILL.md,ecommerce-visual-
 你可以这样说：
 
 - “帮我做一套淘宝主图和详情页文案”
-- “先给我主图 storyboard，不要直接写最终文案”
+- “先给我主图分镜脚本，不要直接写最终文案”
 - “这个产品怎么提炼卖点做主图”
 - “按抖音小店风格给我出视觉脚本”
 - “这个详情页有没有广告法风险”
@@ -125,7 +125,7 @@ Copy-Item -Recurse ecommerce-visual-copywriting-skill\SKILL.md,ecommerce-visual-
 | 视觉策划 | 转化驱动力、风格锁、利益翻译表、合规边界 | 先确认方向 |
 | 主图文案 | 5 张主图的视觉任务、构图、图内文案、设计说明 | 主图每张不超过 5 行 |
 | 详情页 | 首屏、核心利益、材质工艺、场景、证据、FAQ、CTA | 按成交路线组织 |
-| 生图 Prompt | 主体、构图、光影、材质、背景、限制项 | 继承 Campaign Style Lock |
+| 生图 Prompt | 主体、构图、光影、材质、背景、限制项 | 继承统一视觉风格规范 |
 | 合规审查 | 高风险词、替换方向、免责声明 | 不编造资质和证据 |
 | 自审评分 | 合规性、利益翻译度、视觉第一落点、触感/媒介表达、叙事连贯性 | 任一维度低于 80 重写 |
 
@@ -133,7 +133,7 @@ Copy-Item -Recurse ecommerce-visual-copywriting-skill\SKILL.md,ecommerce-visual-
 
 | 维度 | 普通 AI 文案 | 本 Skill |
 |---|---|---|
-| 输出顺序 | 直接生成最终稿 | 先视觉策划，再 Storyboard，确认后执行 |
+| 输出顺序 | 直接生成最终稿 | 先视觉策划，再分镜脚本，确认后执行 |
 | 输出形态 | 一段广告文案 | 画面 + 图内文案 + 设计说明 + Prompt |
 | 主图逻辑 | 卖点堆砌 | 5 张图各有视觉任务 |
 | 详情页逻辑 | 资料堆砌 | 按吸引、欲望、信任、行动推进 |
@@ -147,7 +147,7 @@ Copy-Item -Recurse ecommerce-visual-copywriting-skill\SKILL.md,ecommerce-visual-
 - 基于用户提供的产品资料、资质、检测报告编号和平台要求写作。
 - 对不确定资质标注“缺失”，不把未经验证的信息写成事实。
 - 对普通食品、运动器材、保健食品使用不同合规边界。
-- 在视觉策划和 Storyboard 阶段暂停，等用户确认后再进入最终稿。
+- 在视觉策划和分镜脚本阶段暂停，等用户确认后再进入最终稿。
 
 这个 Skill 不会：
 
