@@ -21,19 +21,40 @@
 
 ## Showcase
 
-These images show the intended execution style: visual interception, multi-angle product views, scene-based detail modules, texture-led selling points, and food-category visual expression.
+These images show the intended execution style: visual interception, multi-angle product views, scene-based detail modules, and texture-led selling points.
 
-| Premium food hero image | Multi-angle product view |
-|---|---|
-| ![Musang King durian hero image](assets/showcase/musang-king-durian-main.jpg) | ![Figure multi-angle product view](assets/showcase/figure-multi-angle.png) |
-
-| Desktop scene detail | Home lighting texture expression |
-|---|---|
-| ![Desktop display scene](assets/showcase/figure-desktop-scene.png) | ![Glass pendant lamp texture image](assets/showcase/lumina-pendant-lamp.png) |
-
-| Food-category scene image |
-|---|
-| ![Camellia oil food scene image](assets/showcase/enquan-camellia-oil.png) |
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <a href="assets/showcase/musang-king-durian-main.jpg">
+          <img src="assets/showcase/thumbs/musang-king-durian-main-thumb.jpg" alt="Musang King durian hero image" width="360" height="360">
+        </a><br>
+        <strong>Premium food hero image</strong>
+      </td>
+      <td align="center" width="50%">
+        <a href="assets/showcase/figure-multi-angle.png">
+          <img src="assets/showcase/thumbs/figure-multi-angle-thumb.jpg" alt="Figure multi-angle product view" width="360" height="360">
+        </a><br>
+        <strong>Multi-angle product view</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <a href="assets/showcase/figure-desktop-scene.png">
+          <img src="assets/showcase/thumbs/figure-desktop-scene-thumb.jpg" alt="Desktop display scene" width="360" height="360">
+        </a><br>
+        <strong>Desktop scene detail</strong>
+      </td>
+      <td align="center" width="50%">
+        <a href="assets/showcase/lumina-pendant-lamp.png">
+          <img src="assets/showcase/thumbs/lumina-pendant-lamp-thumb.jpg" alt="Glass pendant lamp texture image" width="360" height="360">
+        </a><br>
+        <strong>Home lighting texture expression</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
 > Showcase images demonstrate visual output formats. They are not legal opinions, platform approval guarantees, or proof of commercial claims.
 

@@ -27,21 +27,29 @@
   <table>
     <tr>
       <td align="center" width="50%">
-        <img src="assets/showcase/musang-king-durian-main.jpg" alt="猫山王榴莲主图" width="360"><br>
+        <a href="assets/showcase/musang-king-durian-main.jpg">
+          <img src="assets/showcase/thumbs/musang-king-durian-main-thumb.jpg" alt="猫山王榴莲主图" width="360" height="360">
+        </a><br>
         <strong>高端食品主图</strong>
       </td>
       <td align="center" width="50%">
-        <img src="assets/showcase/figure-multi-angle.png" alt="手办多角度产品视图" width="360"><br>
+        <a href="assets/showcase/figure-multi-angle.png">
+          <img src="assets/showcase/thumbs/figure-multi-angle-thumb.jpg" alt="手办多角度产品视图" width="360" height="360">
+        </a><br>
         <strong>多角度产品视图</strong>
       </td>
     </tr>
     <tr>
       <td align="center" width="50%">
-        <img src="assets/showcase/figure-desktop-scene.png" alt="桌面陈列场景图" width="360"><br>
+        <a href="assets/showcase/figure-desktop-scene.png">
+          <img src="assets/showcase/thumbs/figure-desktop-scene-thumb.jpg" alt="桌面陈列场景图" width="360" height="360">
+        </a><br>
         <strong>桌面场景详情</strong>
       </td>
       <td align="center" width="50%">
-        <img src="assets/showcase/lumina-pendant-lamp.png" alt="玻璃吊灯质感主图" width="360"><br>
+        <a href="assets/showcase/lumina-pendant-lamp.png">
+          <img src="assets/showcase/thumbs/lumina-pendant-lamp-thumb.jpg" alt="玻璃吊灯质感主图" width="360" height="360">
+        </a><br>
         <strong>家居灯具质感表达</strong>
       </td>
     </tr>
